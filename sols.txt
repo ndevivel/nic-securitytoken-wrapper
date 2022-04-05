@@ -1,0 +1,5 @@
+view commit (from history)
+
+https://github.com/nmdtechai/nic-securitytoken-wrapper/commits/main/queries.txt
+
+##############################
