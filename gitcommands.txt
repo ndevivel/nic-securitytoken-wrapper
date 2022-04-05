@@ -27,3 +27,16 @@ git add . all the files from my local repository.
 git commit -m "message here" to add messages to my commits.
 git push origin master to upload my files to GitHub.
 git push heroku master to upload my files to Heroku.
+
+#####################33
+$git remote -v
+myOrigin ssh://git@example.com:1234/myRepo.git (fetch)
+myOrigin ssh://git@example.com:1234/myRepo.git (push)
+
+# this will fail because `origin` is not set
+$git push origin main
+
+# you need to use
+$git push myOrigin main
+
+######################3333
