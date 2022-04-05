@@ -47,3 +47,15 @@ If that still fails, try at least to clone that repo again from GitHub, and add 
 cd /path/to/new/clone
 git --git-dir .git --work-tree /path/to /your/repo add .
 #######################
+
+gh repo clone nmdtechai/nic-securitytoken-wrapper
+git add remote origin <the repository HTTPS URL>
+https://<username>:<password>@github.com/<username>/<repository.git>
+
+Use this command to relogin with a different account on GitHub:
+
+git remote set-url origin "remote repository URL"
+
+##########################3
+
+
