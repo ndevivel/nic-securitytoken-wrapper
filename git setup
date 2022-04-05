@@ -1,1 +1,18 @@
 https://github.com/nmdtechai/nmdtechai.git
+
+HTTP https://github.com/nmdtechai/nic-securitytoken-wrapper.git
+SSH - git@github.com:nmdtechai/nic-securitytoken-wrapper.git
+CLI- gh repo clone nmdtechai/nic-securitytoken-wrapper
+
+CMD 
+cd I:\Tech\GIT\java\security tokens\mychanges\apr5\nic-token-wrapper
+git init
+git remote add origin git@github.com:nmdtechai/nic-securitytoken-wrapper
+
+or
+
+git clone https://github.com/nmdtechai/nic-securitytoken-wrapper.git
+
+git push -u origin main
+remote: Permission to nmdtechai/nic-securitytoken-wrapper.git denied to ndevivel.
+fatal: unable to access 'https://github.com/nmdtechai/nic-securitytoken-wrapper.git/': The requested URL returned error: 403
