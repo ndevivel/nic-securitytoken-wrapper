@@ -1,0 +1,11 @@
+--apr5--
+how to upload projects
+how to set tags
+how to merge with master branch -- verify
+how to view commits -- DONE
+how to change default to other branches
+what is release
+how to publish
+how to merge with others releases
+how more than a person in team commits their changes in specific branches
+how to deploy in cloud
