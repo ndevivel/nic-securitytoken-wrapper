@@ -1,0 +1,111 @@
+git branch -m main <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
+git remote set-head origin -a
+
+…or create a new repository on the command line
+echo "# nmdtechai" >> README.md
+git init
+git add README.md
+git add m
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nmdtechai/nmdtechai.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/nmdtechai/nmdtechai.git
+git branch -M main
+git push -u origin main
+
+Checkout in your local repository
+Run the following commands in your local clone.
+
+git fetch origin
+git checkout 2-issue-in-github-as-beginner
+
+git add . all the files from my local repository.
+git commit -m "message here" to add messages to my commits.
+git push origin master to upload my files to GitHub.
+git push heroku master to upload my files to Heroku.
+
+#####################33
+$git remote -v
+myOrigin ssh://git@example.com:1234/myRepo.git (fetch)
+myOrigin ssh://git@example.com:1234/myRepo.git (push)
+
+# this will fail because `origin` is not set
+$git push origin main
+
+# you need to use
+$git push myOrigin main
+
+######################3333
+cd /path/to /your/repo
+git --git-dir .git --work-tree . status
+If that still fails, try at least to clone that repo again from GitHub, and add your recent changes in that new repo:
+
+cd /path/to/new/clone
+git --git-dir .git --work-tree /path/to /your/repo add .
+#######################
+
+gh repo clone nmdtechai/nic-securitytoken-wrapper
+git add remote origin <the repository HTTPS URL>
+https://<username>:<password>@github.com/<username>/<repository.git>
+
+Use this command to relogin with a different account on GitHub:
+
+git remote set-url origin "remote repository URL"
+git remote add origin git@github.com:user/repo.git
+##########################3
+
+
+$ git gui 
+##################3
+git push -u origin master
+Username for 'https://github.com': yourusername
+Password for 'https://yourusername@github.com': 
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/yourusername/foobar.git'
+To fix it, reinitialize and follow the proper sequence:
+
+git init
+git add .
+git commit -m 'message'
+git *create remote
+git push -u origin master
+######################
+git init 
+or
+git clone <remote-url>
+cd <repository>
+####################
+
+I:\Tech\GIT\java\security tokens\mychanges\apr5\nic-securitytoken-wrapper>ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\lenovo/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\lenovo/.ssh/id_rsa.
+Your public key has been saved in C:\Users\lenovo/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:mVRgnSZfu3kiWY+VqSD6H3tW94M2AWZB9llNmLqu7dc lenovo@DESKTOP-LOF2JCV
+The key's randomart image is:
++---[RSA 3072]----+
+|        ooo+   =o|
+|       ...=.o = .|
+|        .+ ..= o |
+|       ..oo++ +  |
+|       .S.o+.O   |
+|      .   o B.+ .|
+|       .  .o +oo.|
+|        .  +++..E|
+|         .+=+.. .|
++----[SHA256]-----+
+
+
+$ cat /c/Users/lenovo/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/SnfXOAPGBggm9plCGRiYrNX/XR/8sXO7TPdDMQZXE3aVzSwvbWwykZMOE0GXDZ15Ew9EhJg608zuHg79KGRu9SM/C0AeYVnaxqotNx/h4633w62Cf/pBp5kT8xunZETKjzleQMQQKKCkWbFpfcJ1a0bXqUgxaj+c3QpGuuj6CUH/Oa5iBKcNy0WdJkbLXwAyjAsokcxJs8SQzxT455UsNhsrnWlrKP48fww4gmd/hlaU8r6mPsJ1oUpqOpaqibCttQJIE+683fpfd5hjmt4sF99K/Y0P+iYPfQjfonV9r02/Voc9PYGwagwUYbgEEsZRh7Pgz6L4iicNgmDFi9V4JzZpY/0VELQAsxa2amlJiKafd8z4d6vim5tFCMuNKpJeLWh7G2BG14SFi68evt6hUixlg+COJ29zmZI7CcF3+rp49XjOo7VykmBC2mqfi1B6oVtsDlTAoP98piW8+DuUgAUy6PtMvI0sphtmBWUTXqJtE7A8rO+uyR7DgZw8ObM= lenovo@DESKTOP-LOF2JCV
+
+
+#########################

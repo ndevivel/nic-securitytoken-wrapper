@@ -1,0 +1,11 @@
+view commit (from history)
+
+https://github.com/nmdtechai/nic-securitytoken-wrapper/commits/main/queries.txt
+
+##############################
+
+how to merge with master branch -- verify
+
+pull request
+
+################################
