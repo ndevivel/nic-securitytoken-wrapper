@@ -2,7 +2,7 @@
 how to upload projects
 how to set tags
 how to merge with master branch
-how to view commits
+how to view commits -- DONE
 how to change default to other branches
 what is release
 how to publish
