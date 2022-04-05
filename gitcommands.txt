@@ -40,3 +40,10 @@ $git push origin main
 $git push myOrigin main
 
 ######################3333
+cd /path/to /your/repo
+git --git-dir .git --work-tree . status
+If that still fails, try at least to clone that repo again from GitHub, and add your recent changes in that new repo:
+
+cd /path/to/new/clone
+git --git-dir .git --work-tree /path/to /your/repo add .
+#######################
