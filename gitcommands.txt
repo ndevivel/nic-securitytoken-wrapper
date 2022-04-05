@@ -16,3 +16,9 @@ git push -u origin main
 git remote add origin https://github.com/nmdtechai/nmdtechai.git
 git branch -M main
 git push -u origin main
+
+Checkout in your local repository
+Run the following commands in your local clone.
+
+git fetch origin
+git checkout 2-issue-in-github-as-beginner
