@@ -103,4 +103,9 @@ The key's randomart image is:
 |         .+=+.. .|
 +----[SHA256]-----+
 
+
+$ cat /c/Users/lenovo/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/SnfXOAPGBggm9plCGRiYrNX/XR/8sXO7TPdDMQZXE3aVzSwvbWwykZMOE0GXDZ15Ew9EhJg608zuHg79KGRu9SM/C0AeYVnaxqotNx/h4633w62Cf/pBp5kT8xunZETKjzleQMQQKKCkWbFpfcJ1a0bXqUgxaj+c3QpGuuj6CUH/Oa5iBKcNy0WdJkbLXwAyjAsokcxJs8SQzxT455UsNhsrnWlrKP48fww4gmd/hlaU8r6mPsJ1oUpqOpaqibCttQJIE+683fpfd5hjmt4sF99K/Y0P+iYPfQjfonV9r02/Voc9PYGwagwUYbgEEsZRh7Pgz6L4iicNgmDFi9V4JzZpY/0VELQAsxa2amlJiKafd8z4d6vim5tFCMuNKpJeLWh7G2BG14SFi68evt6hUixlg+COJ29zmZI7CcF3+rp49XjOo7VykmBC2mqfi1B6oVtsDlTAoP98piW8+DuUgAUy6PtMvI0sphtmBWUTXqJtE7A8rO+uyR7DgZw8ObM= lenovo@DESKTOP-LOF2JCV
+
+
 #########################
