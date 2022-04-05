@@ -6,3 +6,4 @@ what is release
 how to publish
 how to merge with others releases
 how more than a person in team commits their changes in specific branches
+how to deploy in cloud
