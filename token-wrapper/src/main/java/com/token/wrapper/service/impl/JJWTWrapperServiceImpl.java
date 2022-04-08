@@ -1,5 +1,6 @@
 package com.token.wrapper.service.impl;
 
+import com.token.service.JJWTService;
 import com.token.wrapper.service.JJWTWrapperService;
 
 /**
@@ -9,5 +10,5 @@ import com.token.wrapper.service.JJWTWrapperService;
  */
 public class JJWTWrapperServiceImpl implements JJWTWrapperService{
 
-    
+	JJWTService jjwtservice;
 }
