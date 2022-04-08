@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.token.wrapper</groupId>
-  <artifactId>token-wrapper</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>TokenWrapperProject</name>
-  
-  <properties>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.token.wrapper</groupId>
+	<artifactId>token-wrapper</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TokenWrapperProject</name>
+
+	<properties>
 		<java.version>1.8</java.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -15,25 +15,26 @@
 		<slf4j.version>1.6.1</slf4j.version>
 
 	</properties>
-<dependencies>
+	
+	<dependencies>
 
-<!-- https://mvnrepository.com/artifact/org.json/json -->
-<dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20220320</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20220320</version>
+		</dependency>
 
-<dependency>
-<groupId>com.jjwt</groupId>
-  <artifactId>jjwt-token-parser</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</dependency>
-<dependency>
- <version>1.0</version>
-    <groupId>com.metamug</groupId>
-    <artifactId>java-jwt</artifactId>
-    </dependency>
+		<dependency>
+			<groupId>com.jjwt</groupId>
+			<artifactId>jjwt-token-parser</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<version>1.0</version>
+			<groupId>com.metamug</groupId>
+			<artifactId>java-jwt</artifactId>
+		</dependency>
 		<!-- compile time api -->
 		<dependency>
 			<groupId>dev.paseto</groupId>
@@ -81,17 +82,17 @@
 			<artifactId>jjwt</artifactId>
 			<version>0.4</version>
 		</dependency>
-<dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20190722</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20190722</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
